@@ -1,0 +1,100 @@
+{
+  "title": "Вычисление киральных аномалий в квантовой теории поля",
+  "definitions": [
+    {
+      "variant": "Треугольный паркет",
+      "definition": "Треуго́льный парке́т (треугольный паркета́ж) или треугольная мозаика — это замощение плоскости равными правильными треугольниками, расположенными сторона к стороне. Треугольная мозаика является двойственной шестиугольной мозаике — если соединить центры смежных треугольников, то проведённые отрезки дадут шестиугольную мозаику. Символ Шлефли треугольного паркета — {3,6}, что означает, что в каждой вершине паркета сходятся 6 треугольников. Внутренний угол правильного треугольника равен 60 градусов, так что шесть треугольника в одной вершине дают вместе 360 градусов. Это одна из трёх правильных мозаик плоскости. Другие две мозаики — шестиугольный паркет и квадратный паркет. Английский математик Конвей называл мозаику deltille (дельта-мозаикой), поскольку она имеет форму греческой буквы дельта (Δ). Треугольную мозаику можно также назвать кис-шестиугольной мозаикой, если применить операцию kis, которая добавляет центральную вершину и треугольники, разбивая грани шестиугольной мозаики."
+    },
+    {
+      "variant": "Киральная симметрия",
+      "definition": "Кира́льная симме́трия — непрерывная симметрия уравнений движения в квантовой теории поля (КТП), сочетающая два различных вида преобразований в изотопическом пространстве: преобразования, сохраняющие внутреннюю чётность частиц, и преобразования, изменяющие её. В результате киральные преобразования смешивают состояния не только с различными электрическими зарядами, но и с противоположной внутренней чётностью. Название термина происходит от греческого слова χειρ («рука»), отражая фундаментальную симметрию между «левыми» и «правыми» состояниями физических полей."
+    },
+    {
+      "variant": "Дивергенция",
+      "definition": "Диверге́нция (от лат. divergere — обнаруживать расхождение) — дифференциальный оператор, отображающий векторное поле на скалярное (то есть, в результате применения к векторному полю операции дифференцирования получается скалярное поле), который определяет (для каждой точки), «насколько расходится входящее и исходящее из малой окрестности данной точки поле», точнее, насколько расходятся входящий и исходящий потоки. Если учесть, что потоку можно приписать алгебраический знак, то нет необходимости учитывать входящий и исходящий потоки по отдельности, всё будет автоматически учтено при суммировании с учётом знака. Поэтому можно дать более короткое определение дивергенции: дивергенция — это линейный дифференциальный оператор на векторном поле, характеризующий поток данного поля через поверхность достаточно малой (в условиях конкретной задачи) окрестности каждой внутренней точки области определения поля."
+    },
+    {
+      "variant": "Инстантон",
+      "definition": "Инстанто́н (англ. instanton, от англ. instant — мгновение) — локализованное во времени (в отличие от солитона — локализованного в пространстве) решение уравнения движения, сформулированного во мнимом времени. } Решение этого уравнения для двуямного потенциала может быть представлено в следующем виде (см. обзор): x c l ( τ ) = η th [ ω 2 ( τ − τ 0 ) ] . \\left[{{\\frac {\\omega }{2}}\\left({\\tau -\\tau _{0}}\\right)}\\right]."
+    },
+    {
+      "variant": "Аномальная дисперсия света",
+      "definition": "Аномальная дисперсия — вид дисперсии света, при которой показатель преломления среды уменьшается с увеличением частоты световых колебаний. Согласно современным представлениям и нормальная, и аномальная дисперсии представляют собой явления единой природы. Эта точка зрения основывается на электромагнитной теории света, с одной стороны, и на электронной теории вещества, — с другой. Термин «аномальная дисперсия» сохраняет сегодня лишь исторический смысл, поскольку «нормальная дисперсия» — это дисперсия вдали от длин волн, при которых происходит поглощение света данным веществом, а «аномальная дисперсия» — это дисперсия в области полос поглощения света веществом. Аномальная дисперсия обусловлена взаимодействием света с заряженными частицами, входящими в состав вещества и совершающими вынужденные колебания в переменном электромагнитном поле волны."
+    }
+  ],
+  "formulas": [
+    {
+      "variant": "Треугольный паркет",
+      "formulas": [
+        "\\tfrac{\\pi}{\\sqrt{12}}"
+      ]
+    },
+    {
+      "variant": "Киральная симметрия",
+      "formulas": []
+    },
+    {
+      "variant": "Дивергенция",
+      "formulas": [
+        "\\ \\operatorname{div} \\mathbf F",
+        "\\ \\nabla \\cdot \\mathbf F",
+        "\\operatorname{div}\\,\\mathbf{F} \n= \\lim_{V \\rightarrow 0} {\\mathit\\Phi_{\\ \\mathbf F} \\over V},",
+        "\\Phi_{\\mathbf F}",
+        "\\mathit\\Phi_{\\ \\mathbf F} = \\iint\\limits_S\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\subset\\supset\\; (\\vec F, d\\vec S).",
+        "\\operatorname{div}\\,\\mathbf{F}\n=\\frac{\\partial F_x}{\\partial x}\n+\\frac{\\partial F_y}{\\partial y}\n+\\frac{\\partial F_z}{\\partial z}\\ \\ \\",
+        "F_x, F_y, F_z",
+        "\\operatorname{div}\\,\\mathbf{F}\n=\\nabla\\cdot \\mathbf{F}\\ \\ \\",
+        "\\operatorname{div}\\,\\mathbf{F} >0",
+        "\\operatorname{div}\\,\\mathbf{F} <0",
+        "\\operatorname{div}\\,\\mathbf{F} =0",
+        "\\operatorname{div}\\,\\mathbf{E} = \\frac{1}{\\varepsilon_0}\\rho",
+        "\\operatorname{div}\\,\\mathbf{g} = -4\\pi G \\rho",
+        "\\operatorname{div} (a\\mathbf{F} + b\\mathbf{G}) \n= a\\;\\operatorname{div} \\mathbf{F}  \n+ b\\;\\operatorname{div} \\mathbf{G}",
+        "\\operatorname{div}\\varphi \\mathbf{F} \n= \\operatorname{grad}\\varphi \\cdot \\mathbf{F} \n+ \\varphi \\;\\operatorname{div}\\mathbf{F},",
+        "\\nabla\\cdot(\\varphi \\mathbf{F}) \n= (\\nabla\\varphi) \\cdot \\mathbf{F} \n+ \\varphi \\;(\\nabla\\cdot\\mathbf{F}).",
+        "\\operatorname{div} (\\mathbf{F}\\times\\mathbf{G}) \n= \\operatorname{rot} \\mathbf{F} \\cdot\\mathbf{G} \n\\;-\\; \\mathbf{F} \\cdot \\operatorname{rot}\\mathbf{G},",
+        "\\nabla\\cdot(\\mathbf{F}\\times\\mathbf{G})\n= (\\nabla\\times\\mathbf{F})\\cdot\\mathbf{G}\n- \\mathbf{F}\\cdot(\\nabla\\times\\mathbf{G}).",
+        "\\operatorname{div} \\operatorname{grad} \\varphi = \\Delta \\varphi",
+        "\\operatorname{div}  \\operatorname{rot}\\mathbf{F} = 0",
+        "\\operatorname{div}(\\mathbf{A}) = \\operatorname{div}(\\mathbf{q_1}A_1 + \\mathbf{q_2}A_2 + \\mathbf{q_3}A_3) =",
+        "= \\frac{1}{H_1H_2H_3}\\left[\\frac{\\partial}{\\partial q_1}(A_1H_2H_3) + \\frac{\\partial}{\\partial q_2}(A_2H_3H_1) + \\frac{\\partial}{\\partial q_3}(A_3H_1H_2) \\right]",
+        "\\begin{matrix}H_r= 1; \\\\ H_\\theta= r; \\\\ H_z = 1. \\end{matrix}",
+        "\\operatorname{div}\\mathbf{A}(r, \\theta, z) = \n\\frac{1}{r} \\frac{\\partial}{\\partial r}(A_r r) +\n\\frac{1}{r} \\frac{\\partial}{\\partial \\theta}(A_\\theta) + \n\\frac{\\partial}{\\partial z}(A_z)",
+        "\\begin{matrix}H_r = 1; \\\\ H_\\theta = r; \\\\ H_\\phi = r\\sin{\\theta}. \\end{matrix}",
+        "\\operatorname{div}\\mathbf{A}(r, \\theta, \\phi) = \n\\frac{1}{r^2} \\frac{\\partial}{\\partial r} \\left[ A_r r^2 \\right] + \n\\frac{1}{r \\sin{\\theta}} \\frac{\\partial}{\\partial \\theta} \\left[ A_\\theta \\sin{\\theta} \\right] + \n\\frac{1}{r \\sin{\\theta}} \\frac{\\partial}{\\partial \\phi} \\big[ A_\\phi\\big]",
+        "\\begin{matrix}\nH_\\xi = \\frac{\\sqrt{\\xi + \\eta}}{2\\sqrt{\\xi}}; \\\\ \nH_\\eta = \\frac{\\sqrt{\\xi + \\eta}}{2\\sqrt{\\eta}}; \\\\ \nH_\\phi = \\sqrt{\\eta \\xi} \\end{matrix}",
+        "\\operatorname{div}\\mathbf{A}(\\xi, \\eta, \\phi) = \n\\frac{4}{\\xi + \\eta} \\frac{\\partial}{\\partial \\xi} \\left[ A_\\xi \\frac{\\sqrt{\\xi^2+\\xi\\eta}}{2} \\right] + \n\\frac{4}{\\xi + \\eta} \\frac{\\partial}{\\partial \\eta} \\left[ A_\\eta \\frac{\\sqrt{\\eta^2+\\xi\\eta}}{2} \\right] + \n\\frac{1}{\\sqrt{\\xi\\eta}} \\frac{\\partial}{\\partial \\phi} \\Big[ A_\\phi \\Big]",
+        "\\begin{matrix}\nH_\\xi = \\sigma\\sqrt{\\frac{\\xi^2 - \\eta^2}{\\xi^2-1}}, \\\\ \nH_\\eta = \\sigma\\sqrt{\\frac{\\xi^2 - \\eta^2}{1-\\eta^2}}, \\\\\nH_\\phi = \\sigma\\sqrt{(\\xi^2-1)(1-\\eta^2)}. \n\\end{matrix}",
+        "\\operatorname{div}\\mathbf{A}(\\xi, \\eta, \\phi) = \n\\frac{1}{\\sigma(\\xi^2 - \\eta^2)} \\frac{\\partial}{\\partial \\xi} \\left[ A_\\xi \\sqrt{(\\xi^2-\\eta^2)(\\xi^2-1)} \\right] +",
+        "+ \\frac{1}{\\sigma(\\xi^2 - \\eta^2)} \\frac{\\partial}{\\partial \\eta} \\left[ A_\\eta \\sqrt{(\\xi^2-\\eta^2)(1-\\eta^2)} \\right] + \n\\frac{1}{\\sigma\\sqrt{(\\xi^2-1)(1-\\eta^2)}} \\frac{\\partial}{\\partial \\phi} \\Big[ A_\\phi \\Big].",
+        "\\operatorname{div} = (\\nabla\\cdot) = \\vec{R}^\\alpha\\nabla_\\alpha\\cdot",
+        "\\vec{R}^\\alpha",
+        "\\nabla\\cdot\\vec{v} = \\vec{R}^\\alpha\\nabla_\\alpha\\cdot v^i \\vec{R}_i = \\nabla_i v^i",
+        "\\nabla\\cdot T = \\vec{R}^\\alpha\\nabla_\\alpha \\cdot T^{ij} \\vec{R}_i \\vec{R}_j = \\vec{R}_j \\nabla_i T^{ij}",
+        "\\nabla\\cdot\\vec{v}\\vec{v} = \\vec{v}\\nabla\\cdot\\vec{v} + \\left(\\vec{v}\\cdot\\nabla\\right)\\vec{v}"
+      ]
+    },
+    {
+      "variant": "Инстантон",
+      "formulas": [
+        "\\scriptstyle{\\tau=0}",
+        "V=\\lambda(x^2-\\eta^2)^2",
+        "x=\\pm\\eta",
+        "\\tau=it",
+        "m\\frac{d^2 x}{d\\tau^2}=\\frac{dV}{dx}.",
+        "x_{cl}\\left(\\tau\\right)=\\eta\\,\\operatorname{th}\\!\\left[{\\frac{\\omega}{2}\\left({\\tau-\\tau_0}\\right)}\\right].",
+        "x(-\\infty)=-\\eta",
+        "x(\\infty)=\\eta",
+        "\\omega^2=8\\lambda\\eta^2",
+        "\\tau_0"
+      ]
+    },
+    {
+      "variant": "Аномальная дисперсия света",
+      "formulas": [
+        "dn/dw\\ < 0",
+        "w \\sim 10^{15}"
+      ]
+    }
+  ]
+}

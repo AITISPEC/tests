@@ -1,0 +1,45 @@
+{
+  "title": "Расчет магнитного поля от цилиндра с током",
+  "definitions": [
+    {
+      "variant": "Теорема о циркуляции магнитного поля",
+      "definition": "Теорема о циркуляции магнитного поля — одна из фундаментальных теорем классической электродинамики, сформулированная Андре Мари Ампером в 1826 году. В 1861 году Джеймс Максвелл снова вывел эту теорему, опираясь на аналогии с гидродинамикой, и обобщил её (см. ниже). Уравнение, представляющее собой содержание теоремы в этом обобщённом виде, входит в число уравнений Максвелла. (Для случая постоянных электрических полей — то есть в магнитостатике — верна теорема в первоначальном виде, сформулированная Ампером и приведённая в статье первой; для общего случая правая часть должна быть дополнена членом с производной напряжённости электрического поля по времени — см. ниже.) Теорема гласит: Эта теорема, особенно в иностранной или переводной литературе, называется также теоремой Ампера или законом Ампера о циркуляции (англ. Ampère’s circuital law). Последнее название подразумевает рассмотрение закона Ампера в качестве более фундаментального утверждения, чем закон Био — Савара — Лапласа, который в свою очередь рассматривается уже в качестве следствия (что, в целом, соответствует современному варианту построения электродинамики). Для общего случая (классической) электродинамики формула должна быть дополнена в правой части членом, содержащим производную по времени от электрического поля (см. уравнения Максвелла, а также параграф «Обобщение» ниже). В таком дополненном виде она представляет собой четвёртое уравнение Максвелла в интегральной форме."
+    }
+  ],
+  "formulas": [
+    {
+      "variant": "Теорема о циркуляции магнитного поля",
+      "formulas": [
+        "\\oint\\vec B \\cdot \\vec{dl} = \\frac{4\\pi}{c}\\int\\vec j\\cdot \\vec{ds}",
+        "\\mathrm{rot}\\ \\vec B = \\frac{4\\pi}{c}\\vec j",
+        "\\vec H = \\vec B - 4\\pi \\vec M",
+        "\\oint\\vec H\\cdot \\vec{dl} =\n\\frac{4\\pi}{c}\\int\\vec j_f\\cdot \\vec{ds}",
+        "\\mathrm{rot}\\ \\vec H = \\frac{4\\pi}{c}\\vec j_f,",
+        "\\vec j_f",
+        "d\\vec E/dt",
+        "d\\vec D/dt",
+        "\\oint\\vec B \\cdot \\vec{dl} \n= \\frac{1}{c} \\int(4\\pi \\vec j\n+ \\frac{\\partial \\vec E}{\\partial t})\\cdot \\vec{ds}",
+        "\\oint\\vec{H}\\cdot \\vec{dl}\n= \\int \\vec j \\cdot \\vec {ds}\n+ \\frac{\\partial}{\\partial t}\\int\\vec{D}\\cdot \\vec{ds}.",
+        "\\oint\\vec{H}\\cdot \\vec{dl}\n= \\frac{4\\pi}{c} \\int \\vec j \\cdot \\vec{ds}\n+ \\frac{1}{c}\\frac{\\partial}{\\partial t}\\int\\vec{D}\\cdot \\vec{ds}",
+        "\\mathbf{rot}\\vec{B} \n= \\frac{4\\pi}{c}\\vec j\n+ \\frac{1}{c}\\frac{\\partial}{\\partial t}\\vec{E},",
+        "\\mathbf{rot}\\vec{H} \n= \\frac{4\\pi}{c}\\vec j\n+ \\frac{1}{c}\\frac{\\partial}{\\partial t}\\vec{D}",
+        "B(r)\\cdot 2\\pi r = \\frac{4\\pi}{c} I \\to B(r) = \\frac{2I}{cr}",
+        "\\vec p = (x_0;y_0;z_0)",
+        "\\mathrm{d}\\vec B (\\vec p) = {1 \\over c} \\frac{I[\\mathrm{d}\\vec{r} \\times (\\vec{p} - \\vec{r})]}{|\\vec p - \\vec r|^3}",
+        "\\mu_0/4\\pi",
+        "\\vec B (\\vec{p}) = {1 \\over c} \\int\\limits_\\Complex \\frac{I[\\mathrm{d}\\vec{r} \\times (\\vec{p} - \\vec{r})]}{|\\vec p - \\vec r|^3}",
+        "\\Gamma=\\oint_{\\Gamma} \\vec{B} \\cdot \\mathrm{d}\\vec p = \\oint_{\\Gamma}{I \\over c} \\int\\limits_\\Complex \\frac{[\\mathrm{d}\\vec{r} \\times (\\vec{p} - \\vec{r})]}{|\\vec p - \\vec r|^3}\\cdot \\mathrm{d}\\vec p",
+        "[\\mathrm{d}\\vec{r} \\times (\\vec{p} - \\vec{r})]\\cdot \\mathrm{d}\\vec p=(\\mathrm{d}\\vec p,\\mathrm{d}\\vec{r},(\\vec{p} - \\vec{r}))",
+        "[\\mathrm{d}\\vec{r} \\times (\\vec{p} - \\vec{r})]\\cdot \\mathrm{d}\\vec p=(\\mathrm{d}\\vec p,\\mathrm{d}\\vec{r},(\\vec{p} - \\vec{r}))=((\\vec{p} - \\vec{r}),\\mathrm{d}\\vec p,\\mathrm{d}\\vec r)=[\\mathrm{d}\\vec{p} \\times \\mathrm{d}\\vec{r}]\\cdot (\\vec{p} - \\vec{r})",
+        "\\Gamma= {I\\over c}\\oint_{\\Gamma} \\int\\limits_\\Complex(\\vec{p} - \\vec{r})\\cdot \\frac{[\\mathrm{d}\\vec{p} \\times \\mathrm{d}\\vec{r}]}{|\\vec p - \\vec r|^3}",
+        "[\\mathrm{d}\\vec{p} \\times \\mathrm{d}\\vec{r}]",
+        "\\mathrm{d}\\vec{S}=[\\mathrm{d}\\vec{p} \\times \\mathrm{d}\\vec{r}]",
+        "(\\vec{p} - \\vec{r})",
+        "\\mathrm{d}\\vec{S}",
+        "\\Gamma= {I \\over c}\\int\\!\\!\\!\\int_S(\\vec{p} - \\vec{r})\\cdot \\frac{\\mathrm{d}\\vec{S}}{|\\vec p - \\vec r|^3}",
+        "\\Gamma= {I\\over c}\\cdot 4\\pi = {4\\pi \\over c}I",
+        "\\Gamma= 0"
+      ]
+    }
+  ]
+}

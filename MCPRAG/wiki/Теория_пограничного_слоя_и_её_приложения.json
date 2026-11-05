@@ -1,0 +1,153 @@
+{
+  "title": "Теория пограничного слоя и её приложения",
+  "definitions": [
+    {
+      "variant": "Метод Чепмена — Энскога",
+      "definition": "Метод Чепмена — Энскога (теория Чепмена — Энскога) — метод решения кинетического уравнения Больцмана. На его основе могут быть получены уравнения газовой гидродинамики из уравнения Больцмана. Этот метод оправдывает феноменологические определяющие соотношения, возникающие в гидродинамических описаниях, таких как уравнения Навье — Стокса. При этом получаются выражения для различных коэффициентов переноса, таких как теплопроводность и вязкость, через молекулярные параметры. Таким образом, теория Чепмена — Энскога представляет собой важный шаг в переходе от микроскопического описания, основанного на частицах, к континуальному гидродинамическому описанию. Теория названа в честь Сидни Чепмена и Дэвида Энскога, которые представили её независимо в 1916 и 1917 годах."
+    },
+    {
+      "variant": "Уравнения Навье — Стокса",
+      "definition": "Уравне́ния Навье́ — Сто́кса — дифференциальные уравнения в частных производных, описывающие движение вязкой ньютоновской жидкости. В общем случае трёхмерного течения жидкости представляют собой три скалярных дифференциальных уравнения, выражающих баланс импульса (количества движения) для вязкой жидкости (обобщение второго закона Ньютона). Если рассматривать эти уравнения как векторное соотношение, то часто говорят об уравнении Навье — Стокса (в единственном числе). Названы по имени французского физика Анри Навье и британского математика Джорджа Стокса. Уравнения Навье — Стокса являются одними из важнейших в гидродинамике и применяются в математическом моделировании многих природных явлений и технических задач. Впервые уравнения Навье — Стокса были получены Навье (1822, несжимаемая жидкость) и Пуассоном (1829, сжимаемая жидкость), которые исходили из модельных представлений о молекулярных силах. Позже феноменологический вывод уравнений был дан Сен-Венаном и Стоксом. Для получения замкнутой системы уравнений к уравнениям Навье — Стокса необходимо добавить уравнение неразрывности, выражающее закон сохранения массы: ∇ ⋅ v → = 0."
+    },
+    {
+      "variant": "Пристеночный ламинарный слой",
+      "definition": "Присте́ночный ламина́рный слой — слой жидкости или газа, в котором наблюдается ламинарное течение, располагающийся вблизи стенки русла, в то время как в остальной части потока режим течения турбулентный. Указанный слой всегда существует в трубах с турбулентным течением. Это обусловлено тем, что скорость течения жидкости вблизи стенки намного меньше скорости течения в основной части потока, и в месте контакта стенки трубы и жидкости скорость равна нулю. Пристеночный ламинарный слой тем тоньше, чем большее значение имеет число Рейнольдса (чем больше турбулентность). В том случае, если толщина пристеночного ламинарного слоя больше размера шероховатостей стенок трубы, то труба считается гидравлически гладкой, если указанный слой тоньше размера шероховатостей, то трубу нужно считать гидравлически шероховатой. Когда с увеличением числа Рейнольдса из-под пристеночного ламинарного слоя начинают выступать частицы шероховатости, и характер зависимости коэффициента потерь на трение по длине от числа Рейнольдса меняется, и определяется по графическим зависимостям. Соответственно в этом случае изменится характер гидравлических потерь на трение по длине."
+    },
+    {
+      "variant": "Турбулентность",
+      "definition": "Турбуле́нтность, устар. турбуле́нция (от лат. turbulentus — бурный, беспорядочный), турбуле́нтное тече́ние — явление, когда при увеличении скорости течения жидкости (или газа) образуются нелинейные фрактальные волны. Волны образуются обычные, линейные различных размеров, без наличия внешних сил и/или при наличии — сил, возмущающих среду. Волны появляются случайно, и их амплитуда меняется хаотически в некотором интервале. Они возникают чаще всего либо на границе, у стенки, и/или при разрушении или опрокидывании волны. Они могут образоваться на струях (экспериментально турбулентность можно наблюдать на конце струи пара из электрочайника). Количественные условия перехода к турбулентности были экспериментально открыты английским физиком и инженером О. Рейнольдсом в 1883 году при изучении течения воды в трубах. Для расчёта подобных течений были созданы различные модели турбулентности."
+    },
+    {
+      "variant": "Отрыв пограничного слоя",
+      "definition": "Срыв (отрыв) потока — отделение потока газа или жидкости, обтекающего тело, от его поверхности вследствие отрыва пограничного слоя, вызванного его торможением при неблагоприятном градиенте давления. Среда вблизи обтекаемого тела вследствие вязкости движется медленнее, чем на удалении от неё. В соответствии с принципом Бернулли давление близлежащих слоёв оказывается больше, чем удалённых. Возникает градиент давления. При достижении градиентом определённого значения, называемого неблагоприятным, происходит отрыв потока от поверхности. В результате образуется область оторвавшегося течения или зона отрыва, где характер течения сменяется с ламинарного на турбулентный. Срыв потока сказывается на аэродинамических характеристиках тела (подъёмной силе, сопротивлении и т.д.)"
+    }
+  ],
+  "formulas": [
+    {
+      "variant": "Метод Чепмена — Энскога",
+      "formulas": [
+        "f(\\mathbf{r},\\mathbf{v},t)",
+        "\\frac{\\partial f}{\\partial t}+\\mathbf{v\\cdot }\\frac{\\partial f}{\\partial \n\\mathbf{r}}+\\frac{\\mathbf{F}}{m} \\cdot\\frac{\\partial f}{\\partial \\mathbf{v}}=\\hat{C} f,",
+        "\\tau_{\\mathrm c}",
+        "\\tau_{\\mathrm f}",
+        "\\tau_{\\mathrm c} \\ll \\tau_{\\mathrm f}",
+        "\\gamma \\equiv r_{\\mathrm c}^3 n",
+        "r_{\\mathrm c}",
+        "\\tau_{\\text{ext}}",
+        "\\hat{C} f = 0.",
+        "f=n(\\mathbf{r},t)\\left( \\frac{m}{2\\pi k_B T(\\mathbf{r},t)}\\right)^{3/2} \\exp \\left[ -\\frac{m\\left( \\mathbf{v}-\\mathbf{v}_0 (\\mathbf{r},t) \\right)^2}{2k_B T(\\mathbf{r},t)} \\right],",
+        "\\tau_{\\mathrm f} \\ll \\tau_{\\text{ext}}",
+        "\\frac{\\partial f}{\\partial t}+\\mathbf{v\\cdot }\\frac{\\partial f}{\\partial \\mathbf{r}}+\\frac{\\mathbf{F}}{m}\\cdot \\frac{\\partial f}{\\partial \\mathbf{v}}=\\frac{1}{\\varepsilon} \\hat{C} f.",
+        "\\mathbf{v\\cdot}\\frac{\\partial f}{\\partial\\mathbf{r}}+\\frac{\\mathbf{F}}{m}\\cdot\\frac{\\partial f}{\\partial \\mathbf{v}}",
+        "f=f^{(0)}+\\varepsilon f^{(1)}+\\varepsilon^2 f^{(2)}+\\cdots \\ .",
+        "e^{-1/\\varepsilon}",
+        "\\begin{align}\nJ(f^{(0)},f^{(0)}) &=0 \\\\\n2J(f^{(0)},f^{(n)}) &=\\left(\\frac{\\partial }{\\partial t}+\\mathbf{v\\cdot }\\frac{\\partial }{\\partial \\mathbf{r}}+\\frac{\\mathbf{F}}{m}\\cdot \\frac{\\partial }{\\partial \\mathbf{v}} \\right) f^{(n-1)}\n-\\sum_{m=1}^{n-1}J(f^{(n)},f^{(n-m)}), \\qquad n > 0, \n\\end{align}",
+        "J(f,g) = J(g,f)",
+        "J(f,f) = \\hat{C}f",
+        "f^{(0)}=n'(\\mathbf{r},t)\\left( \\frac{m}{2\\pi k_{B}T'(\\mathbf{r},t)}\\right)^{3/2}\\exp \\left[ -\\frac{m\\left( \\mathbf{v}-\\mathbf{v}'_{0}(\\mathbf{r},t)\\right) ^{2}}{2k_{B}T'(\\mathbf{r},t)}\\right].",
+        "n'(\\mathbf{r},t)",
+        "\\mathbf{v}'_{0}(\\mathbf{r},t)",
+        "T'(\\mathbf{r},t)",
+        "f^{(0)}",
+        "\\begin{align}\nn(\\mathbf{r},t) &= \\int f \\, d\\mathbf{v} \\\\\nn(\\mathbf{r},t)\\mathbf{v}_0 (\\mathbf{r},t) &= \\int \\mathbf{v} f \\, d\\mathbf{v} \\\\\nn(\\mathbf{r},t)T(\\mathbf{r},t) &= \\int \\frac{m}{3k_B}\\mathbf{v}^2 f \\, d\\mathbf{v}.\n\\end{align}",
+        "\\varepsilon > 0",
+        "\\varepsilon = 0",
+        "f^{(n)}",
+        "\\begin{align}\n\\int \\sum_{n=1}^\\infty \\varepsilon^n f^{(n)} \\, d\\mathbf{v}= 0 = \\int \\sum_{n=1}^\\infty \\varepsilon^{n}f^{(n)}\\mathbf{v}^2 \\, d\\mathbf{v} \\\\\n\\int \\sum_{n=1}^\\infty \\varepsilon^n f^{(n)} v_i \\, d\\mathbf{v} = 0, \\qquad i \\in \\{x,y,z\\}.\n\\end{align}",
+        "f^{(1)}",
+        "f^{(1)}=\\left[ -\\frac{1}{n}\\left( \\frac{2k_B T}{m}\\right)^{1/2} \\mathbf{A}(\\mathbf{v}) \\cdot \\nabla \\ln T - \\frac{2}{n} \\mathbb{B(\\mathbf{v})\\colon \\nabla }\\mathbf{v}_{0} \\right] f^{(0)},",
+        "\\mathbf{A}(\\mathbf{v})",
+        "\\mathbb{B}(\\mathbf{v})",
+        "\\mathbb{T} : \\mathbb{T'} = \\sum_i \\sum_j T_{ij}T'_{ji}",
+        "\\mathbf{q} = \\frac{m}{2} \\int f \\mathbf{v}^2 \\mathbf{v} \\, d\\mathbf{v}",
+        "\\mathbf{q} = -\\lambda \\nabla T,",
+        "\\mathbf{\\sigma} = m \\int (\\mathbf{v} - \\mathbf{v}_0) (\\mathbf{v} - \\mathbf{v}_0)^\\mathsf{T} f \\, \\mathrm{d}\\mathbf{v}",
+        "\\mathbf{\\sigma} = p \\mathbb{I} - \\mu \\left( \\nabla \\mathbf{v_0} + \\nabla \\mathbf{v_0}^T \\right) + \\frac{2}{3}\\mu (\\nabla \\cdot \\mathbf{v_0}) \\mathbb{I},",
+        "1.016 \\cdot \\frac{5}{16 \\sigma^2} \\left(\\frac{k_B m T}{\\pi}\\right)^{1/2}",
+        "2.522 \\cdot \\frac{3}{2} \\frac{k_B}{m} \\cdot \\mu",
+        "\\kappa / r^{\\nu}",
+        "\\frac{5}{8}\\frac{1}{A_2(\\nu)\\Gamma\\left(4 - \\frac{2}{\\nu - 1}\\right)}\\left(\\frac{k_B m T}{\\pi}\\right)^{1/2}\\left(\\frac{2k_B T}{\\kappa}\\right)^{2/(\\nu-1)}",
+        "\\frac{15}{4} \\frac{k_B}{m} \\cdot \\mu",
+        "A_2(\\nu)",
+        "A_2(5) = 0.436",
+        "A_2(11) = 0.319",
+        "V(r)=4\\varepsilon \\{ (\\sigma / r)^{12} - (\\sigma / r)^6 \\}",
+        "\\frac{5}{8 \\sigma^2} \\left(\\frac{k_B m T}{\\pi}\\right)^{1/2} \\cdot \\frac{1}{\\mathcal{W}_1^{(2)}(2)}",
+        "\\frac{15}{4}\\frac{k_B}{m} \\cdot \\mu",
+        "\\mathcal{W}_1^{(2)}(2)",
+        "k_B T / \\varepsilon",
+        "k_B T / \\varepsilon = 0.3",
+        "k_B T / \\varepsilon = 100",
+        "\\mathbf{v}_0(\\mathbf{r},t)",
+        "\\begin{align}\n\\frac{\\partial n}{\\partial t}+\\nabla \\cdot\\left( n\\mathbf{v}_0\\right) &= 0 \\\\\n\\frac{\\partial \\mathbf{v}_0}{\\partial t}+ \\mathbf{v}_0\\cdot \\nabla \\mathbf{v}_0-\\frac{\\mathbf{F}}{m}+\\frac{1}{n}\\nabla \\cdot \\mathbf{\\sigma} &= 0 \\\\\n\\frac{\\partial T}{\\partial t}+\\mathbf{v}_0\\cdot \\nabla T+\\frac{2}{3k_B n}\\left( \\mathbf{\\sigma :}\\nabla \\mathbf{v}_0+\\nabla \\cdot \\mathbf{q}\\right) &= 0. \n\\end{align}",
+        "f = \\lambda / \\mu c_v",
+        "\\mu \\propto T^{1/2}",
+        "\\propto r^{-\\nu}",
+        "\\mu \\propto T^s",
+        "s = 1/2 + 2/(\\nu - 1)",
+        "s = 0.668",
+        "\\nu \\approx 12.9",
+        "\\lambda = f \\mu c_v",
+        "\\propto r^{-13}",
+        "\\propto r^{-5}",
+        "f = 2.5",
+        "f^{(2)}",
+        "\\left(\\frac{\\partial}{\\partial t} + \\mathrm{v}_i \\cdot \\frac{\\partial }{\\partial \\mathrm{r}} + \\frac{\\mathrm{F}_i}{m_i}\\cdot \\frac{\\partial}{\\partial \\mathrm{v}_i}\\right)f_i = \\sum_j S_{ij}(f_i, f_j)",
+        "\\mathrm{v_i}(\\mathrm{r}, t)",
+        "\\mathrm{F}_i",
+        "S_{ij}(f_i, f_j) = \\iiint \\left[g_{ij}(\\sigma_{ij} \\mathrm{k})f_i'(\\mathrm{r})f_j'(\\mathrm{r} + \\sigma_{ij} \\mathrm{k}) - g_{ij}(- \\sigma_{ij} \\mathrm{k}) f_i(\\mathrm{r})f_j(\\mathrm{r} - \\sigma_{ij} \\mathrm{k})\\right] d \\tau",
+        "S_{ij}",
+        "\\sigma_{ij} \\mathrm{k}",
+        "g_{ij}",
+        "\\sigma_{ij} = 0",
+        "g_{ij}(\\sigma_{ij} \\mathrm{k}) = 1",
+        "\\sigma_{ij}",
+        "\\frac{p}{nkT} = 1 + \\frac{2 \\pi n}{3} \\sum_i \\sum_j x_i x_j \\sigma_{ij}^3 g_{ij} \\,,",
+        "n \\sum_i \\sum_j x_i x_j \\sigma_{ij} ^3 \\ll 1",
+        "\\lambda = (1 + n \\alpha_{\\lambda}) \\lambda_0 + n^2 T^{1 / 2} \\lambda_{\\sigma}\\,,",
+        "\\alpha_{\\lambda}",
+        "\\lambda_\\sigma",
+        "\\lambda_0",
+        "\\mu = (1 + n T \\alpha_{\\mu} ) \\mu_0 + n^2 T^{1 / 2} \\mu_{\\sigma}",
+        "\\alpha_{\\mu}",
+        "\\mu_{\\sigma}",
+        "D \\sim \\frac{1}{n}, \\quad D_T \\sim \\frac{1}{n}",
+        "S_T = \\frac{D_T}{D}, \\quad \\left( \\frac{\\partial S_T}{\\partial n} \\right)_{T} \\neq 0"
+      ]
+    },
+    {
+      "variant": "Уравнения Навье — Стокса",
+      "formulas": [
+        "\\frac{\\partial\\vec{v}}{\\partial t} = -(\\vec{v} \\cdot \\nabla) \\vec{v} + \\nu \\Delta\\vec{v} - \\frac{1}{\\rho} \\nabla p + \\vec{f},",
+        "\\vec{v} = (v^1,\\;\\ldots,\\;v^n)",
+        "\\Omega \\subset \\R^n",
+        "n = 2,\\;3",
+        "\\nabla \\cdot \\vec{v} = 0.",
+        "\\vec{v}|_{\\partial\\Omega} = 0,",
+        "\\vec{v}|_{t=0} = \\vec{v}_0,",
+        "\\rho\\left(\\frac{\\partial v_i}{\\partial t} + v_k \\frac{\\partial v_i}{\\partial x_k}\\right) = -\\frac{\\partial p}{\\partial x_i} + \\frac{\\partial}{\\partial x_k} \\left\\{\\eta\\left(\\frac{\\partial v_i}{\\partial x_k} + \\frac{\\partial v_k}{\\partial x_i} - \\frac{2}{3} \\delta_{ik} \\frac{\\partial v_l}{\\partial x_l}\\right)\\right\\} + \\frac{\\partial}{\\partial x_k} \\left(\\zeta\\frac{\\partial v_l}{\\partial x_l} \\delta_{ik}\\right),",
+        "\\delta_{ik}",
+        "\\rho \\left(\\frac{\\partial \\vec v}{\\partial t} + (\\vec v \\cdot \\nabla) \\vec v \\right) = \n- \\nabla p + \\eta \\Delta\\vec v + \\left(\\zeta + \\frac{\\eta}{3}\\right) \\nabla\\operatorname{div}\\vec v.",
+        "\\frac{\\partial \\rho}{\\partial t} + \\nabla \\cdot (\\rho \\vec v) = 0,",
+        "\\frac{\\partial T}{\\partial t} = a \\nabla T + ( \\eta / c_p ) \\cdot \\Phi + Q1 / c_p \\rho"
+      ]
+    },
+    {
+      "variant": "Пристеночный ламинарный слой",
+      "formulas": []
+    },
+    {
+      "variant": "Турбулентность",
+      "formulas": [
+        "U=U_{mid}+ u' = 100 + 0,5",
+        "e=\\frac{100\\%\\cdot u'}{U_{mid}} = \\frac{100\\%\\cdot 0,5}{100}=0,5\\%.",
+        "e = \\frac{u' + v' + w'}{U_{mid}}.",
+        "Re_{kp} \\simeq 2300"
+      ]
+    },
+    {
+      "variant": "Отрыв пограничного слоя",
+      "formulas": []
+    }
+  ]
+}

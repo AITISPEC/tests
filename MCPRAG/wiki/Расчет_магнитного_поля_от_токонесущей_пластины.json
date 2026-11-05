@@ -1,0 +1,100 @@
+{
+  "title": "Расчет магнитного поля от токонесущей пластины",
+  "definitions": [
+    {
+      "variant": "Электростатическое поле",
+      "definition": "Электростати́ческое по́ле — поле, созданное неподвижными в пространстве и неизменными во времени электрическими зарядами. Оно представляет собой особый вид материи, связанный с электрическими зарядами и передающий действия зарядов друг на друга. Является частным случаем электрического поля (последнее может быть переменным во времени, а также, помимо зарядов, может порождаться переменным магнитным полем). Регистрируется через силу, действующую на неподвижный пробный точечный заряд, помещённый в изучаемую точку пространства; этот пробный заряд должен быть малым, чтобы не повлиять на свойства электростатического поля. Электростатическое поле обладает свойством потенциальности, то есть работа поля по перемещению в нём заряда зависит только от начального и конечного положений этого заряда, но не от вида траектории. Электростатическое поле заданного распределения зарядов может быть рассчитано на основе закона Кулона или посредством решения уравнения Пуассона с граничными условиями. Силовые линии электростатического поля всегда незамкнуты: начинаются на положительных зарядах (или же на бесконечности) и заканчиваются на отрицательных зарядах (или на бесконечности). При этом, как и силовые линии других векторных полей, они не пересекаются и не касаются друг друга, а густота их тем больше, чем больше напряжённость поля в данном месте. Аналогом электростатического поля, в плане математического описания, во многом является гравитационное поле, для которого логическую роль закона Кулона перенимает закон всемирного тяготения, а вместо точечного заряда рассматривается точечная масса. Но гравитационная сила, в отличие от электростатической, всегда является силой притяжения."
+    },
+    {
+      "variant": "Линейный двигатель",
+      "definition": "Лине́йный дви́гатель — электродвигатель, у которого один из элементов магнитной системы разомкнут и имеет развёрнутую обмотку, создающую магнитное поле, а другой взаимодействует с ним и выполнен в виде направляющей, обеспечивающей линейное перемещение подвижной части двигателя. Сейчас разработано множество разновидностей (типов) линейных электродвигателей, например: линейные асинхронные электродвигатели (ЛАД), линейные синхронные электродвигатели, линейные электромагнитные двигатели, линейные магнитоэлектрические двигатели, линейные магнитострикционные двигатели, линейные пьезоэлектрические (электрострикционные) двигатели и др. Многие типы линейных двигателей, такие как асинхронные, синхронные или постоянного тока, повторяют по принципу своего действия соответствующие двигатели вращательного движения, в то время как другие типы линейных двигателей (магнитострикционные, пьезоэлектрические и др.) не имеют практического исполнения как двигатели вращательного движения. Неподвижную часть линейного электродвигателя, получающую электроэнергию из сети, называют статором, или первичным элементом, а часть двигателя, получающую энергию от статора, называют вторичным элементом или якорем (название «ротор» к деталям линейного двигателя не применяется, так как слово «ротор» буквально означает «вращающийся», а в линейном двигателе вращения нет). Наибольшее распространение в транспорте и для больших линейных перемещений получили асинхронные и синхронные линейные двигатели, но применяются также линейные двигатели постоянного тока и линейные электромагнитные двигатели. Последние чаще всего используются для получения небольших перемещений рабочих органов и обеспечения при этом высокой точности и значительных тяговых усилий."
+    },
+    {
+      "variant": "Электрическое поле",
+      "definition": "Электри́ческое по́ле — вид материи, которая окружает каждый электрический заряд, а также возникает при наличии изменяющегося во времени магнитного поля, и оказывает силовое воздействие на все покоящиеся заряды, притягивая или отталкивая их. Электрическое поле математически определяется как векторное поле, которое связывает с точкой в пространстве силу (электростатическую, или кулоновскую) на единицу заряда, приложенную к бесконечно малому положительному пробному заряду, покоящемуся в этой точке. В системе СИ единица измерения напряжённости электрического поля: вольт на метр (В/м) или, что то же самое, ньютон на кулон (Н/Кл). Электрические и магнитные поля рассматриваются как проявления более общей физической реальности — электромагнитного поля, ответственного за одно из фундаментальных взаимодействий природы (наряду с гравитационным, сильным и слабым). Частным случаем электрического поля является электростатическое. Электрические поля важны во многих областях физики и используются практически в электротехнике. Например, в атомной физике и химии электрическое поле — это сила удерживающая атомное ядро и электроны вместе в атомах. Эта сила отвечает за химические связи между атомами, в результате которых образуются молекулы. Другие использования электрических полей включают обнаружение движения посредством ёмкостных методов и растущее число диагностических и терапевтических медицинских применений."
+    }
+  ],
+  "formulas": [
+    {
+      "variant": "Электростатическое поле",
+      "formulas": [
+        "\\mathbf{E}(\\mathbf{r})",
+        "\\varphi(\\mathbf{r})",
+        "\\nabla\\cdot\\mathbf{D}= \\rho\\qquad \\nabla\\times\\mathbf{E}=0",
+        "\\oint\\limits_\\mathbf{s}\\mathbf{D}\\cdot d\\mathbf{s}= Q\\qquad \\oint\\limits_\\mathbf{l}\\mathbf{E}\\cdot d\\mathbf{l}= 0",
+        "\\mathbf{E} = -\\nabla\\varphi",
+        "\\mathbf{D} = \\varepsilon_0\\varepsilon\\mathbf{E}",
+        "\\varepsilon_0\\nabla\\cdot\\left(\\varepsilon\\nabla\\varphi\\right) = -\\rho",
+        "\\Delta\\varphi = -\\frac{\\rho}{\\varepsilon_0\\varepsilon}",
+        "\\boldsymbol{E}(\\boldsymbol{r}) = \\boldsymbol{E}_1(\\boldsymbol{r}) + \\boldsymbol{E}_2(\\boldsymbol{r}) + \\boldsymbol{E}_3(\\boldsymbol{r}) + \\cdots",
+        "\\varepsilon =\\varepsilon(|\\mathbf{E}|)",
+        "|\\mathbf{E}| = \\frac{|\\sigma|}{\\varepsilon_0\\varepsilon} = \\frac{|U|}{d}",
+        "\\varepsilon = \\,",
+        "\\boldsymbol{r}_1",
+        "\\boldsymbol{F} = {1\\over 4\\pi\\varepsilon_0\\varepsilon}\\frac{q_1q}{ |\\boldsymbol{r}-\\boldsymbol{r}_1|^2}\\hat \\boldsymbol{r}_{1,q} = {1\\over 4\\pi\\varepsilon_0\\varepsilon}\\frac{q_1q(\\boldsymbol{r}-\\boldsymbol{r}_1)}{|\\boldsymbol{r}-\\boldsymbol{r}_1|^3}",
+        "\\hat\\boldsymbol{r}_{1,q}",
+        "\\boldsymbol{E}(\\boldsymbol{r}) = {1\\over 4\\pi\\varepsilon_0\\varepsilon}\\frac{q_1(\\boldsymbol{r}-\\boldsymbol{r}_1)}{|\\boldsymbol{r}-\\boldsymbol{r}_1|^3}",
+        "\\boldsymbol{F} = q\\boldsymbol{E}",
+        "q_1, q_2, ..., q_n",
+        "\\mathbf{r}_1,\\mathbf{r}_2,...\\mathbf{r}_n",
+        "\\boldsymbol{E}(\\boldsymbol{r}) ={1\\over 4\\pi\\varepsilon_0\\varepsilon}\\frac{q_1(\\boldsymbol{r}-\\boldsymbol{r}_1)}{|\\boldsymbol{r}-\\boldsymbol{r}_1|^3}\n+ {1\\over 4\\pi\\varepsilon_0\\varepsilon}\\frac{q_2(\\boldsymbol{r}-\\boldsymbol{r}_2)}{|\\boldsymbol{r}-\\boldsymbol{r}_2|^3} + \\cdots = {1\\over 4\\pi\\varepsilon_0\\varepsilon} \\sum_{k=1}^n \\frac{q_k(\\boldsymbol{r}-\\boldsymbol{r}_k)}{|\\boldsymbol{r}-\\boldsymbol{r}_k|^3}",
+        "\\rho(\\boldsymbol{r})",
+        "\\rho(\\boldsymbol{r}')dV",
+        "d\\boldsymbol{E}(\\boldsymbol{r})",
+        "d\\boldsymbol{E}(\\boldsymbol{r}) = {1\\over 4\\pi\\varepsilon_0\\varepsilon}{\\rho(\\boldsymbol{r}')(\\boldsymbol{r}-\\boldsymbol{r}')dV \\over |\\boldsymbol{r}-\\boldsymbol{r}'|^3}",
+        "\\boldsymbol{E}(\\boldsymbol{r}) = {1\\over 4\\pi\\varepsilon_0\\varepsilon}\\iiint\\limits_V \\,{\\rho(\\boldsymbol{r}')(\\boldsymbol{r}-\\boldsymbol{r}')dV \\over |\\boldsymbol{r}-\\boldsymbol{r}'|^3}",
+        "\\sigma(\\boldsymbol{r})",
+        "\\lambda(\\boldsymbol{r})",
+        "\\boldsymbol{E}(\\boldsymbol{r}) = {1\\over 4\\pi\\varepsilon_0\\varepsilon}\\iint\\limits_S \\,{\\sigma(\\boldsymbol{r}')(\\boldsymbol{r}-\\boldsymbol{r}')dA \\over |\\boldsymbol{r}-\\boldsymbol{r}'|^3},\\qquad \\boldsymbol{E}(\\boldsymbol{r}) = {1\\over 4\\pi\\varepsilon_0\\varepsilon}\\int\\limits_P \\,{\\lambda(\\boldsymbol{r}')(\\boldsymbol{r}-\\boldsymbol{r}')dL \\over |\\boldsymbol{r}-\\boldsymbol{r}'|^3}",
+        "\\mathbf{F}=q\\left(\\frac{Q}{4\\pi\\varepsilon_0}\\frac{\\mathbf{\\mathbf{r}}}{|\\mathbf{r}|^3}\\right)=q\\mathbf{E}",
+        "\\mathbf{F}=m\\left(-GM\\frac{\\mathbf{\\mathbf{r}}}{|\\mathbf{r}|^3}\\right)=m\\mathbf{g}",
+        "\\mathbf{r/|r|}",
+        "\\mathbf{E} = \\mathbf{E}_n",
+        "\\mathbf{E}_n",
+        "\\mathbf{E}_{\\tau}",
+        "\\varepsilon\\mathbf{E}_n",
+        "\\varepsilon(\\mathbf{r})"
+      ]
+    },
+    {
+      "variant": "Линейный двигатель",
+      "formulas": []
+    },
+    {
+      "variant": "Электрическое поле",
+      "formulas": [
+        "\\mathbf{E}=\\mathbf{E}(\\mathbf{r}, t) = \\mathbf{E}(x,\\,y,\\,z,\\,t)",
+        "\\nabla\\cdot\\mathbf{D}= \\rho,\\qquad\\qquad \\nabla\\cdot\\mathbf{B}=0",
+        "\\nabla\\times\\mathbf{E}=-\\frac{\\partial\\mathbf{B}}{\\partial t},\\qquad\\nabla\\times\\mathbf{H}= \\mathbf{j}+\\frac{\\partial\\mathbf{D}}{\\partial t}",
+        "\\nabla\\cdot\\mathbf{D}",
+        "\\mathbf{r_0}",
+        "\\rho(\\mathbf{r})=q\\delta(\\mathbf{r-r_0})",
+        "\\mathbf{E}(\\mathbf{r}) = \\mathbf{E}_1(\\mathbf{r}) + \\mathbf{E}_2(\\mathbf{r}) + \\mathbf{E}_3(\\mathbf{r}) + \\cdots\n= \\sum_{k=1}^N \\mathbf{E}_k(\\mathbf{r})",
+        "\\mathbf{E} = -\\nabla \\varphi",
+        "\\mathbf{B} = \\nabla \\times \\mathbf{A}",
+        "\\mathbf{E} = - \\nabla \\varphi - \\frac { \\partial \\mathbf{A} } { \\partial t }",
+        "\\partial \\mathbf{A}/\\partial t",
+        "\\nabla \\times \\mathbf{E} = - \\partial (\\nabla \\times \\mathbf{A})/\\partial t= -\\partial \\mathbf{B}/\\partial t",
+        "\\mathbf{F}=q^*\\left(\\frac{Q}{4\\pi\\varepsilon_0\\varepsilon}\\frac{\\mathbf{\\mathbf{r}}}{|\\mathbf{r}|^3}\\right)=q^*\\mathbf{E}(\\mathbf{r})",
+        "\\varepsilon\\ne\\,",
+        "\\nabla \\times \\left(\\frac{\\mathbf{B}}{\\mu}\\right) = \\mu_0\\left(\\mathbf{j} + \\varepsilon_0\\varepsilon \\frac{\\partial \\mathbf{E}} {\\partial t} \\right)\\qquad\\quad\n\\oint\\limits_\\mathbf{l}\\frac{\\mathbf{B}}{\\mu}\\cdot d\\mathbf{l}=",
+        "\\mu_0\\left(I+\\varepsilon_0\\frac{d}{d t}\\int\\limits_\\mathbf{s}\\varepsilon\\mathbf{E}\\cdot d\\mathbf{s}\\right)",
+        "\\varepsilon_0",
+        "\\nabla \\times \\mathbf{E} = -\\frac{\\partial \\mathbf{B}} {\\partial t}\\qquad\\quad \\oint\\limits_\\mathbf{l}\\mathbf{E}\\cdot d\\mathbf{l}=",
+        "-\\frac{d}{d t}\\int\\limits_\\mathbf{s}\\mathbf{B}\\cdot d\\mathbf{s}",
+        "\\mathbf{F} = q\\mathbf{E} + q\\left[\\mathbf{v} \\times \\mathbf{B}\\right]",
+        "E = - \\Delta V/d",
+        "\\Delta V = \\Delta V(t)",
+        "\\mathbf{D}=\\varepsilon_0\\mathbf{E}+\\mathbf{P}\\!",
+        "\\mathbf{D}=\\varepsilon_0\\varepsilon\\mathbf{E}",
+        "\\mathbf{D(r)}=\\varepsilon_0\\varepsilon (\\mathbf{r})\\mathbf{E(r)}",
+        "D_i=\\varepsilon_0\\varepsilon_{ij}E_j",
+        "u_{EM} = \\frac{\\varepsilon_0\\varepsilon}{2} |\\mathbf{E}|^2 + \\frac{1}{2\\mu_0\\mu} |\\mathbf{B}|^2",
+        "u_{E} = \\frac{1}{2} \\varepsilon_0\\varepsilon |\\mathbf{E}|^2 \\,",
+        "U_{E} = \\frac{1}{2} \\varepsilon_0\\varepsilon \\int_{V} |\\mathbf{E}|^2 \\, \\mathrm{d}V \\,",
+        "U_{E} = \\int_{V} \\rho \\varphi \\, \\mathrm{d}V \\, .",
+        "T = 50/E - 2"
+      ]
+    }
+  ]
+}

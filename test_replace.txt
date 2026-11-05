@@ -1,0 +1,1 @@
+This is a test of replace_file functionality.\nIt should be able to create new content entirely.

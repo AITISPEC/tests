@@ -1,0 +1,123 @@
+{
+  "title": "Отображение Эно и его странный аттрактор",
+  "definitions": [
+    {
+      "variant": "Отображение Эно",
+      "definition": "Отображение Эно — один из наиболее изученных примеров дискретных динамических систем, проявляющих хаотическое поведение. Отображение Эно сопоставляет точке (xn, yn) на плоскости новую точку по следующему закону: { x n + 1 = 1 − a x n 2 + y n y n + 1 = b x n . \\end{cases}}} Система зависит от двух параметров a и b, для классического отображения Эно имеющих значения a = 1.4 и b = 0.3. Для классических значений отображение Эно хаотично, для других значений параметров отображение может быть как хаотично, так и сходиться к периодической орбите. Отображение Эно было предложено французским математиком Мишелем Эно в качестве упрощённой модели отображения Пуанкаре для аттрактора Лоренца. Для классического отображения точка на плоскости будет либо приближаться к множеству точек, известных как странный аттрактор Эно, либо расходиться до бесконечности. Аттрактор Эно в одном направлении представляет собой гладкий фрактал, а в другом — канторово множество."
+    },
+    {
+      "variant": "Аттрактор",
+      "definition": "Аттра́ктор (англ. attract — привлекать, притягивать) — компактное подмножество фазового пространства динамической системы, все траектории из некоторой окрестности которого стремятся к нему при времени, стремящемся к бесконечности. Аттрактором может быть притягивающая неподвижная точка (к примеру, в задаче о маятнике с трением о воздух), периодическая траектория (пример — самовозбуждающиеся колебания в контуре с положительной обратной связью), или некоторая ограниченная область с неустойчивыми траекториями внутри (как у странного аттрактора). Существуют различные формализации понятия стремления, что приводит к различным определениям аттрактора, задающим, соответственно, потенциально различные множества (зачастую — вложенные одно в другое). Наиболее употребительными определениями являются максимальный аттрактор (зачастую — в своей малой окрестности), аттрактор Милнора и неблуждающее множество."
+    },
+    {
+      "variant": "Поверхность",
+      "definition": "Пове́рхность в геометрии и топологии — двумерное топологическое многообразие. Наиболее известными примерами поверхностей являются границы геометрических тел в обычном трёхмерном евклидовом пространстве. С другой стороны, существуют поверхности (например, бутылка Клейна), которые нельзя вложить в трёхмерное евклидово пространство без привлечения сингулярности или самопересечения. «Двумерность» поверхности подразумевает возможность реализовать на ней метод координат, хотя и необязательно для всех точек. Так, поверхность Земли (в идеале) представляет собой двумерную сферу, широта и долгота каждой точки которой являются её координатами (за исключением полюсов и 180-го меридиана). Концепция поверхности применяется в физике, инженерном деле, компьютерной графике и прочих областях при изучении физических объектов. Например, анализ аэродинамических качеств самолёта базируется на обтекании потоком воздуха его поверхности."
+    },
+    {
+      "variant": "Хаос",
+      "definition": "Ха́ос (греч. χάος, от χαίνω — «зиять», «зевать», «разевать рот», «быть пустым») — в греческой мифологии, поэзии и философии — предшествующее космосу состояние, зияющая изначальная бездна; неупорядоченное первовещество; противопоставлением его выступает конечный, упорядоченный космос. От греческого понятия хаос получила наименование мифопоэтическая концепция хаоса в мифологии в целом, первобытного хаоса."
+    },
+    {
+      "variant": "Итерация",
+      "definition": "Итерация (лат. iteratio — повторение) — повторение какого-либо действия. Итерация в математике — повторное применение какой-либо математической операции. Итерация в программировании — организация обработки данных, при которой действия повторяются многократно, не приводя при этом к вызовам самих себя. Итерация в психиатрии — патологическое возбуждение, характеризующееся ритмичным повторением двигательного акта, слова или части фразы, наблюдаемое при кататонических синдромах, постэнцефалитических состояниях, особенно при стриарных гиперкинезах, при глубоком слабоумии, эпилептических сумеречных состояниях, в процессе обратного развития коматозного состояния посттравматического или интоксикационного генеза. Итерация (одоридзи) в японском письме — знак удвоения иероглифа. Итерация в философии — понятие о повторяемости, безотносительной к наличию повторяемого, используемое в учении Жака Деррида."
+    }
+  ],
+  "formulas": [
+    {
+      "variant": "Отображение Эно",
+      "formulas": [
+        "\\begin{cases}x_{n+1} = 1-a x_n^2 + y_n\\\\y_{n+1} = b x_n.\\end{cases}"
+      ]
+    },
+    {
+      "variant": "Аттрактор",
+      "formulas": [
+        "\\overline{f(U)}\\subset U",
+        "A_{max}=\\bigcap_{n=1}^{\\infty} f^n(U)",
+        "f^n(U)\\bigcap U =\\varnothing",
+        "A_{stat}",
+        "\\frac{1}{N}\\# \\{j\\leqslant N \\mid f^j(x)\\in U \\}  \\to 1, \\quad N\\to\\infty",
+        "A_{min}",
+        "\\frac{1}{N}\\sum_{j=0}^{N-1} (f_*^j (Leb))(U)  \\to 1, \\quad N\\to\\infty.",
+        "\\dot x = \\sigma (y - x)",
+        "\\dot y = x (r - z) - y",
+        "\\dot z = x y - b z",
+        "\\sigma=10",
+        "b = 8/3"
+      ]
+    },
+    {
+      "variant": "Поверхность",
+      "formulas": [
+        "F(x,\\,y,\\,z)=0\\qquad (1)",
+        "z=f(x,y)\\qquad (1')",
+        "\\left\\{ \\begin{array}{ccc} \nx &=& x(u,v) \\\\\ny &=& y(u,v) \\\\\nz &=& z(u,v)\n\\end{array}\\right.\\qquad (1'')",
+        "F(x,\\,y,\\,z)=0,\\; F:\\Omega\\to\\mathbb{R}^3",
+        "\\exist P_0(x_0,\\,y_0,\\,z_0):\\;F(x_0,\\,y_0,\\,z_0)=0",
+        "\\left( \\frac{\\partial F}{\\partial x}\\right)^2+\\left( \\frac{\\partial F}{\\partial y}\\right)^2+\\left( \\frac{\\partial F}{\\partial z}\\right)^2>0",
+        "\\mathbf{r} = \\mathbf{r}(u,\\ v)",
+        "\\begin{cases}\nx = x(u, v) \\\\\ny = y(u, v) \\\\\nz = z(u, v)\n\\end{cases}\n\\qquad (u, v) \\in \\Omega.",
+        "x(u,v),\\,y(u,v),\\,z(u,v)",
+        "\\begin{vmatrix}x'_u & x'_v \\\\ y'_u & y'_v \\end{vmatrix}^2+\\begin{vmatrix}y'_u & y'_v \\\\ z'_u & z'_v \\end{vmatrix}^2+\\begin{vmatrix}z'_u & z'_v \\\\ x'_u & x'_v \\end{vmatrix}^2>0",
+        "\\frac{\\partial\\mathbf{r}} {\\partial u}, \\frac{\\partial\\mathbf{r}} {\\partial v}",
+        "z=f(x,y)",
+        "x=u;\\ y=v;\\ z=f(u,v)",
+        "u = u(t),\\quad v = v(t)",
+        "\\mathbf{v} = \\frac{d\\mathbf{r}}{dt} = \\frac{\\partial\\mathbf{r}}{\\partial u} \\frac{du}{dt} + \\frac{\\partial\\mathbf{r}}{\\partial v} \\frac{dv}{dt}.",
+        "\\frac{\\partial\\mathbf{r}}{\\partial u}, \\frac{\\partial\\mathbf{r}}{\\partial v}",
+        "\\mathbf{r}_0 = (x_0, y_0, z_0)",
+        "\\left(\\mathbf{r} - \\mathbf{r_0}, \\frac{\\partial\\mathbf{r}}{\\partial u}, \\frac{\\partial\\mathbf{r}}{\\partial v}\\right) = 0.",
+        "(x_0, y_0, z_0)",
+        "\\frac{\\partial F}{\\partial x}(x - x_0) + \\frac{\\partial F}{\\partial y}(y - y_0) + \\frac{\\partial F}{\\partial z}(z - z_0) = 0,",
+        "\\frac{\\partial f}{\\partial x}(x - x_0) + \\frac{\\partial f}{\\partial y}(y - y_0) = (z - z_0),",
+        "\\begin{vmatrix}\n x - x_0 & y - y_0 & z - z_0 \\\\\n x_u' & y_u' & z_u' \\\\\n x_v' & y_v' & z_v'\n\\end{vmatrix} = 0.",
+        "ds^2 = |d\\mathbf{r}|^2 = \\left(\\frac{\\partial\\mathbf{r}}{\\partial u} du + \\frac{\\partial\\mathbf{r}}{\\partial v} dv\\right)^2 = E\\,du^2 + 2 F\\,du\\,dv + G\\,dv^2,",
+        "E = \\mathbf{r'_u}\\mathbf{r'_u},\\ F = \\mathbf{r'_u}\\mathbf{r'_v},\\ G = \\mathbf{r'_v}\\mathbf{r'_v}",
+        "EG-F^2>0",
+        "ds^2 = du^2 + dv^2",
+        "\\mathbf{m} = \\frac{[\\mathbf{r'_u}, \\mathbf{r'_v}]} {|[\\mathbf{r'_u}, \\mathbf{r'_v}]|}",
+        "k_n = \\pm k \\cos\\theta.",
+        "\\frac{\\displaystyle\\left(\\frac{\\partial F}{\\partial x}; \\frac{\\partial F}{\\partial y}; \\frac{\\partial F}{\\partial z}\\right)}\n      {\\displaystyle\\sqrt{\\left(\\frac{\\partial F}{\\partial x}\\right)^2 + \\left(\\frac{\\partial F}{\\partial y}\\right)^2 + \\left(\\frac{\\partial F}{\\partial z}\\right)^2}},",
+        "\\frac{\\displaystyle\\left(-\\frac{\\partial f}{\\partial x}; -\\frac{\\partial f}{\\partial y}; 1\\right)}\n      {\\displaystyle\\sqrt{\\left(\\frac{\\partial f}{\\partial x}\\right)^2 + \\left(\\frac{\\partial f}{\\partial y}\\right)^2 + 1}},",
+        "\\frac{\\displaystyle\\left(\\frac{D(y, z)}{D(u, v)}; \\frac{D(z, x)}{D(u, v)}; \\frac{D(x, y)}{D(u, v)}\\right)}\n      {\\displaystyle\\sqrt{\\left(\\frac{D(y, z)}{D(u, v)}\\right)^2 + \\left(\\frac{D(z, x)}{D(u, v)}\\right)^2 + \\left(\\frac{D(x, y)}{D(u, v)}\\right)^2}}.",
+        "\\frac{D(y, z)}{D(u, v)} = \\begin{vmatrix}y'_u & y'_v \\\\ z'_u & z'_v \\end{vmatrix},\\quad\n \\frac{D(z, x)}{D(u, v)} = \\begin{vmatrix} z'_u & z'_v\\\\ x'_u & x'_v \\end{vmatrix},\\quad\n \\frac{D(x, y)}{D(u, v)} = \\begin{vmatrix}x'_u & x'_v \\\\ y'_u & y'_v \\end{vmatrix},",
+        "\\kappa_1",
+        "\\kappa_2",
+        "K=\\kappa_1\\kappa_2",
+        "\\frac{1}{R^2}",
+        "k^2 = k_g^2 + k_n^2",
+        "S= \\iint |[\\mathbf{r}'_u\\times\\mathbf{r}'_v]|\\,\\mathrm{d}u\\,\\mathrm{d}v,",
+        "\\mathbf{r}'_u = \\left\\{\\frac{\\partial x}{\\partial u}, \\frac{\\partial y}{\\partial u}, \\frac{\\partial z}{\\partial u}\\right\\},\\ \\mathbf{r}'_v = \\left\\{\\frac{\\partial x}{\\partial v}, \\frac{\\partial y}{\\partial v}, \\frac{\\partial z}{\\partial v}\\right\\}",
+        "\\iint \\sqrt{\\left(\\frac{\\partial f}{\\partial x}\\right)^2 + \\left(\\frac{\\partial f}{\\partial y}\\right)^2 + 1\\,}\\,\\mathrm{d}x\\,\\mathrm{d}y,",
+        "\\iint \\sqrt{\\left(\\frac{D(x, y)}{D(u, v)}\\right)^2 + \\left(\\frac{D(y, z)}{D(u, v)}\\right)^2 + \\left(\\frac{D(z, x)}{D(u, v)}\\right)^2}\\,\\mathrm{d}u\\,\\mathrm{d}v.",
+        "x = 2 + \\cos z",
+        "x= \\varphi(t),\\,\\, z=\\psi(t)",
+        "\\dot{\\varphi}^2 + \\dot{\\psi}^2 = 1.",
+        "M=\\{(\\varphi(t)\\cos \\theta, \\varphi(t)\\sin \\theta,\\psi(t))\\colon t\\in (a,b), \\theta\\in [0,2\\pi)\\}.",
+        "K = -{\\ddot{\\varphi}\\over \\varphi},\\,\\, K_m = {-\\dot{\\psi} +\\varphi(\\dot{\\psi}\\ddot{\\varphi} -\\ddot{\\psi}\\dot{\\varphi})\\over 2 \\varphi}.",
+        "{x^2\\over a} + {y^2\\over b} +{z^2\\over c}=1.",
+        "x=\\sqrt{a(a-u)(a-v)\\over (a-b)(a-c)},\\,\\, y=\\sqrt{b(b-u)(b-v)\\over (b-a) (b-c)}, \\,\\, z=\\sqrt{c(c-u)(c-v)\\over (c-b)(c-a)}.",
+        "K={abc\\over u^2 v^2} ,\\,\\,K_m=-(u+v)\\sqrt{abc\\over u^3v^3}.",
+        "\\mathbb{E}^3",
+        "v = c_t",
+        "u\\cdot v=0, \\,\\,\\|u\\|=1,\\,\\,\\|v\\|=1.",
+        "c(t) + s\\cdot u(t)",
+        "a=\\|u_t\\|, \\,\\, b=u_t\\cdot v, \\,\\, \\alpha=-\\frac{b}{a^2}, \\,\\, \\beta=\\frac{\\sqrt{a^2-b^2}}{a^2},",
+        "K=-{\\beta^2\\over ((s-\\alpha)^2 +\\beta^2)^2} ,\\,\\, K_m=-{r[(s-\\alpha)^2 +\\beta^2)] +\\beta_t(s-\\alpha) + \\beta\\alpha_t\\over\n [(s-\\alpha)^2 +\\beta^2]^{\\frac32}}.",
+        "\\varphi_{tt} = \\varphi",
+        "\\varphi(t) = C \\mathrm{ch}\\,t",
+        "C \\mathrm{sh}\\,t",
+        "q(x, y, z) = -1",
+        "q(x, y, z) = x^2 + y^2 - z^2"
+      ]
+    },
+    {
+      "variant": "Хаос",
+      "formulas": []
+    },
+    {
+      "variant": "Итерация",
+      "formulas": []
+    }
+  ]
+}
