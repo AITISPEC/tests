@@ -1,3 +1,6 @@
 .venv/
+MCPRAG/
+F4_LMB.py
+F4_LMB_DELAY.py
 pull.sh
 push.sh
